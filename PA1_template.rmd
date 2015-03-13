@@ -56,7 +56,7 @@ head(meanMedianStepData)
 
 A histogram for the total number of steps taken for each day was asked for this section of the assignment.  The below R code provides such a histogram:
 
-```{r}
+```{r, echo=TRU}
 hist(meanMedianStepData$Total,breaks=20,xlab="Total Number of Steps per Day", main="Histogram of Total Number of Steps per Day")
 ```
 
@@ -262,3 +262,4 @@ plot(newWeekDayIntESD[,1],newWeekDayIntESD[,2],type="l",main="Weekday Time Serie
 ```
 
 **We see that there is significantly higher activity during the weekdays than the weekends.**
+
