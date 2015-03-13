@@ -6,7 +6,7 @@
 # Set working directory
 
 setwd("E:/Users/Philip Coyne/Documents")
-
+ 
 # Load packages in order to generate pdf documentation afterwards
 require(knitr)
 require(markdown)

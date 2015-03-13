@@ -7,7 +7,7 @@ output:
     keep_md: true
 ---
 ========================================================
-
+ 
 # Reproducible Research Peer Assessment Assignment 1
 ## Written by: *Philip Coyne*
 ### Date: March 12, 2015
