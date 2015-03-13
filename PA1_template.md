@@ -2,7 +2,9 @@
 title: "TBD"
 author: "Philip Coyne"
 date: "March 12, 2015"
-output: pdf_document
+output: 
+  html_document:
+    keep_md: true
 ---
 ========================================================
 

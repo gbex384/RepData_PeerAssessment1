@@ -2,14 +2,16 @@
 title: "TBD"
 author: "Philip Coyne"
 date: "March 12, 2015"
-output: pdf_document
+output: 
+  html_document:
+    keep_md: true
 ---
 ========================================================
 
 # Reproducible Research Peer Assessment Assignment 1
 ## Written by: *Philip Coyne*
 ### Date: March 12, 2015
-
+  
 **Goal**:  For this assignment, we are given data that records and monitors an individuals steps.  This data has been taken from a monitoring device similar to Fitbit, Nike Fuelband, and Jawbone Up.  We are asked to process the raw data into a format acceptable for analysis, and to utilize that data to characterize the data through plots and results.
 
 #### Part 1: Reading in the data
@@ -56,7 +58,7 @@ head(meanMedianStepData)
 
 A histogram for the total number of steps taken for each day was asked for this section of the assignment.  The below R code provides such a histogram:
 
-```{r, echo=TRU}
+```{r, echo=TRUE}
 hist(meanMedianStepData$Total,breaks=20,xlab="Total Number of Steps per Day", main="Histogram of Total Number of Steps per Day")
 ```
 

@@ -1,5 +1,5 @@
-# Title:  Peer Assessment 1 Reproducible Research
-# Class:  Reproducible Research
+# Title:  Second Part of the Worst Project
+# Class:  The Worst Class on Coursera (Coursera.org)
 # Name:   Philip Coyne
 
 
@@ -13,9 +13,9 @@ require(markdown)
 
 # Create .md, .html, and .pdf files
 knit("PA1_template.Rmd")
-knit2html("PA1_template.Rmd", "PA1_template.Rmd")
-#markdownToHTML('PA1_template.Rmd', 'PA1_template.Rmd', options=c("use_xhml"))
-system("pandoc -s PA1_template.Rmd -o PA1_template.Rmd")
+knit2html("PA1_template.Rmd", "PA1_template.html")
+#markdownToHTML('PA1_template.md', 'PA1_template.html', options=c("use_xhml"))
+system("pandoc -s PA1_template.html -o PA1_template.pdf")
 
 
 #Part 1: Read in data file
@@ -210,3 +210,8 @@ par(mfrow=c(2,1))
 plot(newWeekEndIntESD[,1],newWeekEndIntESD[,2],type="l")
 
 plot(newWeekDayIntESD[,1],newWeekDayIntESD[,2],type="l")
+
+
+
+
+
