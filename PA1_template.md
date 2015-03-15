@@ -420,5 +420,5 @@ plot(newWeekDayIntESD[,1],newWeekDayIntESD[,2],type="l",main="Weekday Time Serie
 
 ![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14-1.png) 
 
-**We see that there is significantly higher activity during the weekdays than the weekends.**
+**We see that there is significantly higher activity during the weekends than the weekdays.**
 
